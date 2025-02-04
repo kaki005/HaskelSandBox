@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: wheat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.TodoListContainer {
+  width: 1200px;
+  display: inline-block;
+  margin: auto;
+  background-color: white;
+}
+
+
+.table-original  {
+  font-size: 20px;
+  width: 100%;
+}
+
+
+table tbody tr:hover{
+  background-color: #d4f0fd;
+}
+
+table th,table td{
+  text-align: left;
+  width: 25%;
+  padding: 15px 0;
+
+}
+
+.marginRight {
+  margin-right: 10px;
+}
+
+table input[type=checkbox] {
+  transform:		scale(1.4);
+  margin-right: 50px;
+}
+
+table .form-original {
+  width: 80%;
+  margin : auto;
+}
+
+table .form-inline{
+  display: inline;
+}
